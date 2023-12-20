@@ -2,5 +2,10 @@
   "extends": "react-app",
   "globals": {
     "chrome": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-unused-expressions": "off",
+    "semi": ["error", "always"]
   }
 }
